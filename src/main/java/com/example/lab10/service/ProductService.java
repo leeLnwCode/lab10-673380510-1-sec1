@@ -1,11 +1,12 @@
-package com.example.lab10.service;
 
+package com.example.lab10.service;
 import com.example.lab10.model.Product;
 import com.example.lab10.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import java.util.UUID;
+
 /**
  * ProductService — Business Logic Layer
  *
